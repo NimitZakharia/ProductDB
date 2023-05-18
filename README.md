@@ -11,6 +11,7 @@ To run this project
   npm install mongoose
   npm install faker
   npm install express
+  npm install ejs
 ```
 
 After that run app.js 
