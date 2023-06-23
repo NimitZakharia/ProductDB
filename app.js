@@ -4,7 +4,8 @@ const { performance } = require('perf_hooks');
 const Product = require('./models/Product');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://Nimit:abcdefghi@productsdb.gq1cylj.mongodb.net/', {
+// Enter connections Url here
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
