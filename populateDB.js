@@ -2,7 +2,8 @@ const faker = require('faker');
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://Nimit:abcdefghi@productsdb.gq1cylj.mongodb.net/', {
+// Connection URL here
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
